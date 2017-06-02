@@ -1,0 +1,74 @@
+
+
+html {
+  font-size: 18px;
+
+}
+
+
+.logo {
+  display: flex;
+  background-color: black;
+  width: 100%;
+  color: white;
+  font-family: helvetica;
+  font-size: 1rem;
+  justify-content: center;
+}
+
+.logo img {
+  padding: 0.5rem 0.66rem;
+  height: 1.5rem;
+}
+
+.logo h2 {
+  padding-left: 1rem;
+  padding-top: 0.66rem;
+  padding-bottom: 0.66rem;
+  font-size: 1rem;
+}
+
+.logoset {
+  display: flex;
+  width: 960px;
+  justify-content: flex-start;
+}
+
+.media {
+  display: inline-block;
+  height: 25rem;
+  width: 100%;
+  background-image: url(../images/banner.jpeg);
+  justify-content: flex-start;
+}
+
+.submedia {
+  display: inline-block;
+  justify-content: center;
+  width: 960px;
+}
+
+.media h2 {
+  background: black;
+  font-family: helvetica;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  width: 20rem;
+  padding-top: 2rem;
+  padding-bottom: 0.25rem;
+  padding-left: 3rem;
+  justify-content: flex-start;
+}
+
+.media h1 {
+  background: black;
+  font-family: helvetica;
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+  width: 20rem;
+  padding-left: 3rem;
+  padding-bottom: 2rem;
+  justify-content: flex-start;
+}
