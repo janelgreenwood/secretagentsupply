@@ -34,21 +34,24 @@ html {
   justify-content: flex-start;
 }
 
+
+
 .media {
-  display: inline-block;
+  display: flex;
   height: 25rem;
   width: 100%;
   background-image: url(../images/banner.jpeg);
-  justify-content: flex-start;
+  padding-top: 9rem;
+
 }
 
-.submedia {
-  display: inline-block;
-  justify-content: center;
+.mediaset {
   width: 960px;
+  margin: 0 auto;
 }
 
 .media h2 {
+  display: flex;
   background: black;
   font-family: helvetica;
   color: white;
@@ -56,12 +59,14 @@ html {
   font-weight: bold;
   width: 20rem;
   padding-top: 2rem;
-  padding-bottom: 0.25rem;
   padding-left: 3rem;
   justify-content: flex-start;
+
 }
 
+
 .media h1 {
+  display: flex;
   background: black;
   font-family: helvetica;
   color: white;
@@ -70,5 +75,73 @@ html {
   width: 20rem;
   padding-left: 3rem;
   padding-bottom: 2rem;
-  justify-content: flex-start;
+justify-content: flex-start;
+
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  background-color: firebrick;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  font-family: helvetica;
+  font-size: 1rem;
+  color: white;
+}
+
+li {
+  display: inline-flex;
+  justify-content: space-around;
+}
+
+.products {
+  display: flex;
+  padding-top: 3rem;
+justify-content: space-around;
+  width: 100%;
+  overflow: hidden;
+
+}
+
+.pen {
+  border: 4px solid black;
+  width: 30%;
+
+}
+
+.watch {
+  border: 4px solid black;
+  width: 30%;
+
+}
+
+.glasses {
+  border: 4px solid black;
+  width: 30%;
+
+}
+
+.pen img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+padding-top: 2rem;
+}
+
+.watch img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  padding-top: 2rem;
+
+}
+
+
+.glasses img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  padding-top: 2rem;
+
 }
